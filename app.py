@@ -21,7 +21,7 @@ import plotly.express as px
 print('maindf importing')
 maindf = pd.read_csv('./substationsPowesAlti.csv')
 print('df_wind importing')
-df_wind = pd.read_csv('./new_final_dataset.csv')
+df_wind = pd.read_csv('./testtt.csv')
 # df_wind = pd.read_csv('../../Downloads/tensorflow-test/testtt.csv')
 print('df_power_curves importing')
 df_power_curves = pd.read_csv("./power_curves.csv")
