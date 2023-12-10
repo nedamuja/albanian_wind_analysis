@@ -8,11 +8,6 @@ RUN apt-get update && apt-get install -y \
     libgdal-dev \
     && rm -rf /var/lib/apt/lists/*
 
-
-COPY ../../../../testtt.csv /code/testtt.csv
-COPY ../../../../substationsPowesAlti.csv /code/substationsPowesAlti.csv
-COPY ../../../../power_curves.csv /code/power_curves.csv
-
 RUN apt-get update
 RUN apt-get install -y gdal-bin libgdal-dev g++
 
