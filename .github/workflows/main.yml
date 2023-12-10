@@ -13,4 +13,5 @@ jobs:
 
       - name: Build and Deploy
         run: |
-          echo 'doneeee'
+          cd /home/ubuntu/actions-runner/runner/albanian_wind_analysis/albanian_wind_analysis
+          sudo docker-compose up --build -d
