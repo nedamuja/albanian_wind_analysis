@@ -5,6 +5,12 @@ services:
       - 120:8080
     build:
       dockerfile: ./Dockerfile
+      context: .
+      volumes:
+        - ../../../../testtt.csv /code/testtt.csv
+        - ../../../../substationsPowesAlti.csv /code/substationsPowesAlti.csv
+        - ../../../../power_curves.csv /code/power_curves.csv
+      
     
 
   # nginx:
